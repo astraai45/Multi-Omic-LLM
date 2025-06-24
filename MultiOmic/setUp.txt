@@ -1,0 +1,19 @@
+1. Create the Virtual Environment [python 3.11]
+
+2. Activate the Virtual Environment
+
+ref1: https://www.youtube.com/watch?v=Y21OR1OPC9A&t=47s
+ref2: https://www.youtube.com/watch?v=bf7pCxj6mEg
+3. Install the requirements.txt 
+ < pip install -r requirements.txt >
+
+4. Install the Ollama -> Download
+< https://ollama.com/ >
+
+5. Run this in the Terminal
+< ollama run mistral:7b-instruct-q2_K >
+
+this will download the Model
+
+6. streamlit run OmicAgent.py
+ This will Open the Application
